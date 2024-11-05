@@ -954,6 +954,9 @@ KBUILD_CFLAGS += -fno-builtin-bcmp -Wno-parentheses-equality -Wno-varargs -Wno-t
                -Wframe-larger-than=4096 -Wno-deprecated-declarations -Wno-shift-count-negative
 endif
 
+# supress -Werror=maybe-uninitialized
+# KBUILD_CFLAGS += -Wno-maybe-uninitialized
+
 # Use --build-id when available.
 LDFLAGS_BUILD_ID = $(patsubst -Wl$(comma)%,%,\
 			      $(call cc-ldoption, -Wl$(comma)--build-id,))

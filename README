@@ -398,3 +398,9 @@ IF SOMETHING GOES WRONG:
    gdb'ing a non-running kernel currently fails because gdb (wrongly)
    disregards the starting offset for which the kernel is compiled.
 
+# Reference:
+- [https://wiki.lineageos.org/devices/porg/build/variant1](https://wiki.lineageos.org/devices/porg/build/variant1/)
+- [https://kernelsu.org/guide/how-to-integrate-for-non-gki.html](https://kernelsu.org/guide/how-to-integrate-for-non-gki.html)
+
+# Credits
+- [KernelSU](https://github.com/tiann/KernelSU/tree/v0.9.5): A Kernel based root solution for Android
